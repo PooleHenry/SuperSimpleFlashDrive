@@ -11,7 +11,7 @@ CH552 is a low cost microcontroller (currently about 40 cents in low quantities)
 
 W25Q128 is a NOR flash memory chip with a serial interface. It stores 128 megabits of data, or 16 megabytes. The cost is about $1 in low quantities. [Datasheet](https://www.mouser.lt/datasheet/2/949/w25q128fv_rev.m_05132016_kms-1489795.pdf)
 
-I chose the SOP version of the CH552 (CH552**G**) for ease of soldering. I chose a 3-volt SOIC version of the memory chip:  W25Q128**FVS**IG. Note that there's also a 1.8 volt version that won't work with this board.
+I chose the SOP version of the CH552 (CH552**G**) for ease of soldering. I chose a 3.3-volt SOIC version of the memory chip:  W25Q128**FVS**IG. Note that there are also 1.8 volt versions that won't work with this design.
 
 ## Firmware
 I have not yet written any firmware. I'll need to make the CH552 behave as a [USB Mass Storage](https://en.wikipedia.org/wiki/USB_mass_storage_device_class) device, and use the flash memory chip via standard SPI.
