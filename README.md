@@ -9,12 +9,12 @@ I want to try creating a USB flash drive myself, from scratch. This will give me
 
 CH552 is a low cost microcontroller (currently about 40 cents in low quantities). It has a built-in USB peripheral, 16K of ROM, and 1K of RAM. [Datasheet](https://cdn-learn.adafruit.com/assets/assets/000/129/847/original/CH552DS1.PDF)
 
-W25Q128 is a NOR flash memory chip with a serial interface. It stores 128 megabits of data, or 16 megabytes. The cost is about $1 in low quantities. [Datasheet](https://www.lcsc.com/datasheet/C97521.pdf)
+W25Q128 is a NOR flash memory chip with a serial interface. It stores 128 megabits of data, or 16 megabytes. The cost is about $1 in low quantities. [Datasheet](https://www.mouser.lt/datasheet/2/949/w25q128fv_rev.m_05132016_kms-1489795.pdf)
 
 I chose the SOP version of the CH552 (CH552**G**) for ease of soldering. I chose a 3-volt SOIC version of the memory chip:  W25Q128**FVS**IG. Note that there's also a 1.8 volt version that won't work with this board.
 
 ## Firmware
-I have not yet written any firmware. I'll need to make the CH552 emulate a [USB Mass Storage](https://en.wikipedia.org/wiki/USB_mass_storage_device_class) device.
+I have not yet written any firmware. I'll need to make the CH552 emulate a [USB Mass Storage](https://en.wikipedia.org/wiki/USB_mass_storage_device_class) device. It will interface with the flash memory via standard SPI (MOSI/MISO/CS). For development, I plan to one of the (pid.codes)[https://pid.codes/] Test PIDs.
 
 ## Schematic
 Here is the current schematic:
