@@ -1,6 +1,6 @@
 # SuperSimpleFlashDrive
-Designing a tiny capacity (16 MB!) flash drive, using a WCH CH552 microcontroller and a Winbond W25Q128 NOR Flash memory chip. This project is open-source. :smiley:
-<img width="1080" height="375" alt="flashdrive_boardCAD" src="https://github.com/user-attachments/assets/e4fba496-2d7e-456a-b235-f2be0758c65b" />
+Designing a tiny capacity (16 MB!) flash drive, using a WCH CH552 microcontroller and a Winbond W25Q128 NOR Flash memory chip. This project is open-source.
+<img width="1080" height="375" alt="flashdrive_boardCAD" src="/images/flashdrive_boardCAD.png" />
 
 ## What is this?
 I want to try creating a USB flash drive myself, from scratch. This will give me a chance to learn a lot more about USB devices!
@@ -21,7 +21,7 @@ For development, I plan to one of the [pid.codes](https://pid.codes/) Test PIDs.
 ## Schematic
 Here is the current schematic:
 
-<img width="500" height="355" alt="flashdrive_schematic" src="https://github.com/user-attachments/assets/5dfcf262-532b-4683-83ef-b6aaf7c34cb6"/>
+<img width="500" height="355" alt="flashdrive_schematic" src="/images/flashdrive_schematic.png"/>
 
 ## Acknowledgements
 * I am using the [Routed Gothic](https://github.com/dse/routed-gothic) font by Darren Embry for the PCB
