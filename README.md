@@ -14,7 +14,9 @@ W25Q128 is a NOR flash memory chip with a serial interface. It stores 128 megabi
 I chose the SOP version of the CH552 (CH552**G**) for ease of soldering. I chose a 3-volt SOIC version of the memory chip:  W25Q128**FVS**IG. Note that there's also a 1.8 volt version that won't work with this board.
 
 ## Firmware
-I have not yet written any firmware. I'll need to make the CH552 emulate a [USB Mass Storage](https://en.wikipedia.org/wiki/USB_mass_storage_device_class) device. It will interface with the flash memory via standard SPI (MOSI/MISO/CS). For development, I plan to one of the (pid.codes)[https://pid.codes/] Test PIDs.
+I have not yet written any firmware. I'll need to make the CH552 behave as a [USB Mass Storage](https://en.wikipedia.org/wiki/USB_mass_storage_device_class) device, and use the flash memory chip via standard SPI.
+
+For development, I plan to one of the [pid.codes](https://pid.codes/) Test PIDs.
 
 ## Schematic
 Here is the current schematic:
