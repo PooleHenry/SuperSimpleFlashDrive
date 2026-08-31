@@ -30,4 +30,4 @@ The system setting registers (?)
 The USB registers (hopefully not all 28 of them)
 
 ## Resources
-* (Mass Storage UFI Command Specification 1.0)[https://www.usb.org/sites/default/files/usbmass-ufi10.pdf]
+* [Mass Storage UFI Command Specification 1.0](https://www.usb.org/sites/default/files/usbmass-ufi10.pdf)
