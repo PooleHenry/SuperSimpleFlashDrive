@@ -1,5 +1,5 @@
 # SuperSimpleFlashDrive
-Designing a tiny capacity (16 MB!) flash drive, using a WCH CH552 microcontroller and a Winbond W25Q128 NOR Flash memory chip. This project is open-source.
+A tiny capacity (16 MB!) flash drive, using a WCH CH552 microcontroller and a Winbond W25Q128 NOR Flash memory chip. This project is open-source!
 <img width="1080" height="375" alt="flashdrive_boardCAD" src="/images/flashdrive_boardCAD.png" />
 
 ## What is this?
@@ -19,7 +19,7 @@ I have not yet written any firmware. I'll need to make the CH552 behave as a [US
 For development, I plan to one of the [pid.codes](https://pid.codes/) Test PIDs.
 
 ## Schematic
-Here is the current schematic:
+Here is the current schematic. It is available as a PDF under the "design_files" folder:
 
 <img width="500" height="355" alt="flashdrive_schematic" src="/images/flashdrive_schematic.png"/>
 
