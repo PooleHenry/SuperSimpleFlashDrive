@@ -12,22 +12,33 @@ Here are the I/O pins I am using.
 
 ## Registers I think I will need
 From CH552 datasheet Section "5. Special Function Register (SFR)": 
-All the SPI0 registers 
+
+#### All the SPI0 registers:
+
 SPI0_STAT 
+
 SPI0_DATA  
+
 SPI0_CTRL 
+
 SPI0_CK_SE 
+
 SPI0_S_PRE 
+
 SPI0_SETUP 
 
-The P3 registers (for the LED) 
+
+#### The P3 registers (for the LED which is on 3.1): 
+
 P3 
+
 P3_DIR_PU 
+
 P3_MOD_OC 
 
-The system setting registers (?)
+#### The system setting registers (?):
 
-The USB registers (hopefully not all 28 of them)
+#### The USB registers (hopefully not all 28 of them):
 
 ## Resources
 * [Mass Storage UFI Command Specification 1.0](https://www.usb.org/sites/default/files/usbmass-ufi10.pdf)
