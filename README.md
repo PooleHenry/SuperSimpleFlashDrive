@@ -26,3 +26,4 @@ Here is the current schematic. It is available as a PDF under the "design_files"
 ## Acknowledgements
 * I am using the [Routed Gothic](https://github.com/dse/routed-gothic) font by Darren Embry for the PCB
 * I am using EasyEDA for the schematic and PCB design
+* The [Small Device C Compiler](https://sdcc.sourceforge.net/) for compilation of the firmware
