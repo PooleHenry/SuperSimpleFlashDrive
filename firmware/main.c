@@ -3,7 +3,7 @@
 #include "registers.h"
 
 // Delay by doing some NOP instructions. 
-int delay(int length) {
+void delay(int length) {
   int i = 0;
   for (i < length; i=i+1;) {
     __asm
@@ -15,19 +15,23 @@ int delay(int length) {
     nop
     __endasm;
   }
-
-  return 0;
 }
 
-int blinkLED(void) {
+/*  "Push-pull output mode, has symmetrical drive capability which can output
+    or absorb large current" */
+void setupLED() {
+  LED_outdir = 1;
+  LED_outmdoe = 0;
+}
+
+void blinkLED() {
   LEDbit = 1;
   delay(50);
   LEDbit = 0;
   delay(50);
-
-  return 0;
 }
 
 int main(void) {
+  setupLED();
   while (1) blinkLED;
 }
