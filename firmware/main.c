@@ -21,7 +21,7 @@ void delay(int length) {
     or absorb large current" */
 void setupLED() {
   LED_outdir = 1;
-  LED_outmdoe = 0;
+  LED_outmode = 0;
 }
 
 void blinkLED() {
