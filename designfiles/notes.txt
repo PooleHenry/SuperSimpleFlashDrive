@@ -1,0 +1,3 @@
+Things to try in a future version of the hardware:
+* A reset button/pad so the CH552 can be reflashed more easily
+* Mounting holes for a case
