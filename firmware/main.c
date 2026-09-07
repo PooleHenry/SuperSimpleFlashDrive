@@ -33,5 +33,5 @@ void blinkLED() {
 
 int main(void) {
   setupLED();
-  while (1) blinkLED;
+  while (1) blinkLED();
 }
