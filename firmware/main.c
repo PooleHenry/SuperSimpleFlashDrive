@@ -19,12 +19,12 @@ void delay(int length) {
 
 /*  "Push-pull output mode, has symmetrical drive capability which can output
     or absorb large current" */
-void setupLED() {
+void setupLED(void) {
   LED_outdir = 1;
   LED_outmode = 0;
 }
 
-void blinkLED() {
+void blinkLED(void) {
   LEDbit = 1;
   delay(50);
   LEDbit = 0;
